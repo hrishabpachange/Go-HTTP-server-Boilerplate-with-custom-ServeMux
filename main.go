@@ -11,7 +11,7 @@ type params struct { //Allocates a memory space in the local memory
 
 func main() {
 
-	//custom ServeMux
+	//custom ServeMux router
 	router := http.NewServeMux()
 
 	//handles root functionality GET /
